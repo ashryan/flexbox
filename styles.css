@@ -1,0 +1,99 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nology {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    background-color: forestgreen;
+}
+
+.link {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black
+}
+
+.link p {
+    
+    color: white;
+}
+
+.link p:hover {
+
+    color: blue;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width:auto;
+    }
+
+.left-panel > div{
+    border: black solid;
+   
+}
+
+.left-panel  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 50vh;
+}
+
+.right-panel {
+    border: solid black;
+    margin:2px;
+    width: 40%;
+    height: 50vh;
+    
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#top p {
+    background-color: black;
+    padding: 2em;
+    color: white;
+    margin: 0.5em;
+}
+
+#middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#middle p {
+    background-color: black;
+    padding: 2em;
+    margin: 0.5em;
+    color: white;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#bottom p {
+    background-color: black;
+    padding:2em;
+    margin: 0.5em;
+    color: white;
+}
